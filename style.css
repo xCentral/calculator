@@ -11,6 +11,7 @@ body {
     justify-self: center;
     justify-content: flex-end;
     background-color: rgba(252, 252, 252, 0.192);
+    
 }
 
 .container {
@@ -19,9 +20,10 @@ body {
     background-color: rgba(209, 200, 200, 0.5);
     flex-wrap: wrap;
     text-align: center;
-    border: 1px solid goldenrod;
+    border: 3px solid goldenrod;
+    border-radius: 25px;
     width: 400px;
-    max-height: 650px;
+    max-height: 675px;
     text-align: center;
     flex: 0 1 auto;
     margin-right: 1rem;
@@ -30,32 +32,19 @@ body {
     
 }
 
-/* .buttons {
-    width: 400px;
-    border: 1px solid goldenrod;
-    height: 300px;
-    text-align: center;
-    
-    flex: 0 1 auto;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    -
-}  */
 button {
     width: 20%;
     height: 65px;
-    margin: 1px;
-
-    border:1px solid black;
+    margin: 2px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 23px;
+    color: forestgreen;
+    border: 3px solid rgb(66, 211, 216);
 }
 
-#reset, #percent, #divide {
+#first, #last {
     
-    width: 27%;
-}
-
-#zero, #decimal, #equals {
     width: 27%;
 }
 
